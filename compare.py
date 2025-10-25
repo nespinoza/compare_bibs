@@ -66,7 +66,7 @@ def parse_bibtex(file_path):
     # Sort in reverse chronological order
     publications.sort(key=lambda x: x['year'], reverse=True)
     return [pub['text'] for pub in publications]
-# Example usage
+
 if __name__ == "__main__":
 
     bib_file1 = "list1.bib"  
