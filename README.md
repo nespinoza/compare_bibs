@@ -8,5 +8,9 @@ At the core, this script does two things:
 
 1. Convert `bib` files to a list of strings.
 2. Compare the strings by converting those lists to `sets`.
-3. Print out what elements are in one but not in the other.
 
+Then it prints out what elements are in one but not in the other. 
+
+## Acknowledgments
+
+Some parts of this project (e.g., coding assistance and text polishing) were developed with the help of [ChatGPT (OpenAI)](https://openai.com/).
