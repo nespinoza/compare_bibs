@@ -9,8 +9,12 @@ At the core, this script does two things:
 1. Convert `bib` files to a list of strings.
 2. Compare the strings by converting those lists to `sets`.
 
-Then it prints out what elements are in one but not in the other. 
+Then it prints out what elements are in one but not in the other. To use, simply run by doing `python compare.py`.
+
+## Dependencies
+
+The only dependency is the `bibtexparser` library. This can be easily installed via `pip install bibtexparser`.
 
 ## Acknowledgments
 
-Some parts of this project (e.g., coding assistance and text polishing) were developed with the help of [ChatGPT (OpenAI)](https://openai.com/).
+Some parts of this project (e.g., coding assistance) were developed with the help of [ChatGPT (OpenAI)](https://openai.com/).
